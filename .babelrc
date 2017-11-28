@@ -1,0 +1,30 @@
+{
+  "presets": ["babel-preset-expo"],
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-react-jsx-source"
+      ]
+    }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "extensions": [".js", ".ios.js", ".android.js"],
+      "alias": {
+        "@config": "./config",
+        "@fonts": "./src/fonts",
+        "@images": "./src/images",
+        "@components": "./src/js/components",
+        "@containers": "./src/js/containers",
+        "@data": "./src/js/data",
+        "@navigation": "./src/js/navigation",
+        "@redux": "./src/js/redux",
+        "@state": "./src/js/state",
+        "@styles": "./src/js/components/_styles",
+        "@util": "./src/js/util",
+        "@promiseActionType": "./src/js/redux/middleware/promise/actionType.js",
+        "@updaterActionType": "./src/js/redux/middleware/updater/actionType.js"
+      }
+    }]
+  ]
+}

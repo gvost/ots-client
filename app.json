@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "other-side-app",
+    "description": "An app to allow one to chat with the 'other side' about whatever one wants, anonymously.",
+    "slug": "other-side-app",
+    "privacy": "unlisted",
+    "sdkVersion": "21.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#000000",
+    "icon": "./src/images/icons/app-icon.png",
+    "loading": {
+      "backgroundImage": "./src/images/background.png",
+      "backgroundColor": "#000000"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": false
+    }
+  }
+}
